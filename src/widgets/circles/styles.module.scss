@@ -1,0 +1,30 @@
+.circles {
+  position: relative;
+  width: fit-content;
+  right: -100px;
+  top: -120px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 555px;
+}
+
+.big {
+  width: 729px;
+  height: 729px;
+  background: #95C11F;
+  right: -100px;
+  top: -200px;
+}
+
+.small {
+  width: 252px;
+  height: 252px;
+  background: #004F9F;
+  top: 69px;
+  right: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

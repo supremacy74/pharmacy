@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.top {
+  background: center / cover no-repeat url('/century/bg.svg');
+  height: 749px;
+  position: relative;
+}
+
+.navbarWrapper {
+  padding-top: 45px;
+  border-top: 5px solid #95C11F;
+}
+
+.meta {
+  background: #004F9F;
+  width: fit-content;
+  top: 100px;
+  left: 100px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 80px;
+  border-radius: 500px;
+
+  & p {
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 76px;
+  }
+
+  & img {
+    width: 118px;
+    object-fit: cover;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 23px;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+
+  & a {
+    background: #FFFFFF;
+    padding: 30px;
+    border: 5px solid #95C11F;
+    border-radius: 500px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+}
